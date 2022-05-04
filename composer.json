@@ -1,0 +1,23 @@
+{
+    "name": "angelocali/musical-guacamole",
+    "autoload": {
+        "psr-4": {
+            "Angelocali\\MusicalGuacamole\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Angelo Cali",
+            "email": "eu.angelocali@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/angelocali/fuzzy-giggle.git"
+        }
+    ],
+    "require": {
+        "angelocali/fuzzy-giggle": "dev-main"
+    }
+}
